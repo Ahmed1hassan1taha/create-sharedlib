@@ -1,6 +1,4 @@
-def call(String name) {
-    echo "Hello, ${name}!"
-}
+// vars/hello.groovy
 def call(String name = 'World') {
     echo "Hello, ${name}!"
 }
