@@ -1,8 +1,8 @@
-package org.example
+package org
 
 class Utils {
-    static void printMessage(String msg) {
-        println "Message from Utils: ${msg}"
+    static String greet(String name) {
+        return "Hello, ${name}!"
     }
 }
 
